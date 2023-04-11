@@ -14,6 +14,7 @@ namespace Ihelpers.Helpers
         /// </summary>
         /// <param name="wichtype"></param>
         /// <returns></returns>
+        /// new test message
         public static async Task<List<string>> getRelationsOfClass(Type wichtype)
         {
             List<string> relations = new List<string>();
